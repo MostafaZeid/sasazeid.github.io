@@ -1,0 +1,62 @@
+/* Start Header */
+* { margin:0; padding:0; }
+.header .slider {
+    background-image:url('../images/slider.jpg'); 
+    -webkit-background-size:cover; /* CSS3 */
+    -moz-background-size:cover; /* CSS3 */
+    -o-background-size:cover; /* CSS3 */
+    background-size:cover; /* CSS3 */
+    height:600px
+}
+
+.header .slider .intro {padding-top:200px;text-align:center;color:#FFF}
+
+.header .slider .intro h2 {
+    margin:0 auto;
+    font-size:50px;
+    width:600px;
+    border-top:4px solid #FFF;
+    border-bottom:4px solid #FFF;
+    padding:5px 0;
+    color:#FFF
+}
+
+.header .slider .intro button {
+    background:none;
+    margin-top:30px;
+    font-size:20px;
+    border:2px solid #a0a0a0;
+    font-weight:bold;
+    padding:10px 30px;
+	color:#FFF ;
+}
+
+
+
+.header .navbar {
+	background-color:#252f31;
+	color:#fff;
+	overflow:hidden;
+	text-transform:uppercase;
+}
+.header .navbar h2 {float:left;}
+.header .navbar h2 span {color:#2ecc71;}
+
+.header .navbar ul {
+	list-style:none; 
+	padding-left:0;
+	overflow:hidden;
+	float:right;}
+	
+.header .navbar ul  li{float:left;padding:10px; overflow:hidden;}
+.header .navbar ul  li a {
+	color:#fff;
+	text-decoration:none;
+}
+.header .navbar ul  li.active a,
+.header .navbar ul  li a:hover{
+	color:#308576;
+}
+
+/* End Header */
+.container { width:1170px; margin:auto;}
